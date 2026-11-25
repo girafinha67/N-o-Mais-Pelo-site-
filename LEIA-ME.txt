@@ -1,0 +1,16 @@
+SITE NAO + PELO - Depilacao a Laser Santa Felicidade
+
+COMO PUBLICAR
+1. Hospede a pasta em Netlify, Vercel, Hostinger ou similar (o arquivo principal e o index.html).
+2. Aponte seu dominio (ex.: registro.br) para a hospedagem.
+3. Em robots.txt e sitemap.xml, troque SEU-DOMINIO.com.br pelo dominio real.
+4. No index.html, procure o comentario "canonical" no inicio e adicione a tag com o seu dominio.
+5. Cadastre o site no Google Search Console e envie o sitemap.xml.
+6. Crie o perfil no Google Meu Negocio (endereco, telefone, horario).
+
+PREENCHER NO index.html (procure por "var NMP")
+razao: razao social | cnpj: CNPJ | rt: responsavel tecnico
+
+COMO TESTAR NO CELULAR (Termux)
+cd pasta-do-site && python -m http.server 8080
+Abra http://localhost:8080 no navegador.
